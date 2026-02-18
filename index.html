@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lakshmiprasad Mummidi | Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<nav class="navbar">
+    <h2 class="logo">Lakshmiprasad<span>Developer</span></h2>
+    <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button id="theme-toggle">🌙</button>
+</nav>
+
+<!-- ================= HERO ================= -->
+<section id="home" class="hero">
+    <div class="hero-content">
+        <img src="https://i.postimg.cc/W3FJT9Qz/Lakshmiprasad-Mummidi.jpg" alt="Lakshmiprasad Mummidi" class="profile-pic">
+        <h1>Hi, I'm <span class="accent">Lakshmiprasad Mummidi</span></h1>
+        <h2><span id="typewriter"></span></h2>
+        <div class="cta-buttons">
+            <a href="#projects" class="btn">View My Work</a>
+            <a href="#contact" class="btn btn-outline">Contact Me</a>
+        </div>
+    </div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section id="about" class="section fade-in">
+<h2>About Me</h2>
+<p>
+Passionate and self-motivated Data Analyst with strong technical expertise and a deep commitment to continuous learning. 
+Quick to adapt to new technologies and apply innovative solutions to challenges. Dedicated to delivering high-quality code.
+</p>
+
+<div class="timeline">
+    <div class="timeline-item">
+        <h4>B.Tech in CSE – Siddarth Institutions of Science and Technology (2025)</h4>
+        <span>CGPA: 7.45</span>
+    </div>
+    <div class="timeline-item">
+        <h4>HSC – Krishnamalli Junior College (2021)</h4>
+        <span>CGPA: 7.29</span>
+    </div>
+    <div class="timeline-item">
+        <h4>SSC – Z.P. High School (2019)</h4>
+        <span>CGPA: 8.2</span>
+    </div>
+</div>
+</section>
+
+<!-- ================= SKILLS ================= -->
+<section id="skills" class="section fade-in">
+<h2>Technical Skills</h2>
+<div class="skills-grid">
+    <div class="skill-card">Java</div>
+    <div class="skill-card">Python</div>
+    <div class="skill-card">SQL</div>
+    <div class="skill-card">HTML</div>
+    <div class="skill-card">CSS</div>
+    <div class="skill-card">JavaScript</div>
+    <div class="skill-card">React.js</div>
+    <div class="skill-card">MySQL</div>
+    <div class="skill-card">Git</div>
+    <div class="skill-card">Spring Boot</div>
+</div>
+</section>
+
+<!-- ================= PROJECTS ================= -->
+<section id="projects" class="section fade-in">
+<h2>Featured Projects</h2>
+
+<div class="project-grid">
+
+<div class="project-card">
+    <h3>Fake Indian Currency Detection</h3>
+    <p>Deep Learning based image classification app using CNN achieving 96% accuracy.</p>
+    <span class="tech">HTML • CSS • JS • Python • TensorFlow • Keras</span>
+</div>
+
+<div class="project-card">
+    <h3>E-Home Full Stack Web Application</h3>
+    <p>Spring Boot backend + React frontend with JWT authentication & role-based access.</p>
+    <span class="tech">Spring Boot • React • MySQL • JWT</span>
+</div>
+
+</div>
+</section>
+
+<!-- ================= SERVICES ================= -->
+<section id="services" class="section fade-in">
+<h2>Services</h2>
+<div class="services-grid">
+    <div class="service-card">Full-Stack Web Development</div>
+    <div class="service-card">Data Analysis & Visualization</div>
+    <div class="service-card">AI/ML App Prototyping</div>
+    <div class="service-card">Software Testing & Debugging</div>
+</div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section id="contact" class="section fade-in">
+<h2>Contact Me</h2>
+<form id="contact-form">
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea placeholder="Your Message" required></textarea>
+    <button type="submit" class="btn">Send Message</button>
+</form>
+<p id="form-message"></p>
+</section>
+
+<footer>
+    <p>&copy; 2026 Lakshmiprasad Mummidi | All Rights Reserved</p>
+</footer>
+
+<button id="backToTop">↑</button>
+
+<script src="script.js"></script>
+</body>
+</html>
